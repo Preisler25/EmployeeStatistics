@@ -24,6 +24,7 @@ describe("EmployeeStatistics", () => {
 
     describe("Constructor", () => {
         it('Null constructor, error-t dob', () => {
+            // @ts-ignore
             expect(() => new EmployeeStatistics(null)).toThrowError("Null parameter error");
         });
 
